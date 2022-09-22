@@ -28,8 +28,8 @@ class cVideoProcessor {
     
     //MARK: CONST
     
-    private let playbackQueue = DispatchQueue(label: "com.de4me.BlinkCounter.VideoPlayback", qos: .userInteractive);
-    private let workQueue = DispatchQueue(label: "com.de4me.BlinkCounter.VideoProcess", qos: .userInitiated);
+    private let playbackQueue = DispatchQueue(label: "com.de4me.VideoProcessor.Playback", qos: .userInteractive);
+    private let workQueue = DispatchQueue(label: "com.de4me.VideoProcessor.Work", qos: .userInitiated);
     private let context = CIContext();
     private let colorSpace = CGColorSpaceCreateDeviceRGB();
     private var dlibWrapper: DLIBWrapper?;
