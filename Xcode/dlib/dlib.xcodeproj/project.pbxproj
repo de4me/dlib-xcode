@@ -11114,7 +11114,7 @@
 				);
 				MARKETING_VERSION = 19.24.0;
 				MODULEMAP_FILE = dlib.modulemap;
-				PRODUCT_BUNDLE_IDENTIFIER = com.de4me.dlib;
+				PRODUCT_BUNDLE_IDENTIFIER = net.dlib.dlib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -11144,7 +11144,7 @@
 				);
 				MARKETING_VERSION = 19.24.0;
 				MODULEMAP_FILE = dlib.modulemap;
-				PRODUCT_BUNDLE_IDENTIFIER = com.de4me.dlib;
+				PRODUCT_BUNDLE_IDENTIFIER = net.dlib.dlib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
